@@ -228,6 +228,7 @@ code {
 
 .get-rid{
   /* background: #adadab; */
+ 
   height: 70vh;
 }
 
@@ -331,7 +332,7 @@ code {
 
   .create
 {
-  height: 70vh !important;
+  height: 90vh !important;
   background: #fff;
 }
 
@@ -375,7 +376,7 @@ code {
 
 .blacklist-check{
   height: 110vh;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .footer{
@@ -393,5 +394,11 @@ code {
 .rrr{
   margin-bottom: 10px;
 }
+.get-rid{
+  padding-top:50px !important;
+}
 
+.mobile-spacing{
+  margin-bottom: 10px  !important;
+}
 }

@@ -31,7 +31,7 @@ export function CreateAccount(props) {
             </h5>
           </div>
         </Row>
-        <Row >
+        <Row classNmae="mobile-spacing">
           <Col md={4}></Col>
           <Col md={4} >
             <div className="card-reason">
