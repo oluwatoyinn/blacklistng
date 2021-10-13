@@ -1,12 +1,12 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 // import './App.css';
-import Home from "../src/components/Home"
+import Header from "../src/components/Header"
 import { CreateAccount } from './components/CreateAccount';
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      <Header />
       <CreateAccount />
     </div>
   );

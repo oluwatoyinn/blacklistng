@@ -24,7 +24,7 @@ code {
 .logo-image
 {
   font-size: 40px !important;
-  margin-left: 60px !important;
+  margin-left: 10px !important;
 }
 
 .nav-item
@@ -44,6 +44,27 @@ code {
   font-size: 20px !important;
   font-weight: 500;
 }
+
+.nav-item2:hover
+{
+  background: #FF9999;
+  color: #fff !important;
+  border-radius: 15px 0px 15px 0px !important ;
+}
+
+.nav-item3
+{
+  color: #000!important;
+  font-weight: 500;
+  transition: 2s ease-in-out;
+
+}
+
+.nav-item3:hover
+{
+  color: #fff !important;
+  border-bottom: 2px solid #FF9999;
+}
 .navbar-css{
   color: black;
   background: #fff !important;
@@ -52,10 +73,18 @@ code {
   margin-top: 30px;
 }
 
+.navabar{
+  color: black;
+  background: #fff !important;
+  font-size: 20px;
+  /* padding: 70px; */
+  margin-top: 30px;
+}
+
 /* create account section */
 .create
 {
-  height: 70vh !important;
+  height: 90vh !important;
   background: #fff;
 }
 
@@ -66,10 +95,10 @@ code {
 
 .create .create-account h3
 {
-  font-size: 45px;
+  font-size: 40px ;
   text-transform: uppercase;
   font-weight: bold;
-  color:#ff99cc
+  /* color:#ff99cc */
 }
 
 .create .create-account p
@@ -90,6 +119,31 @@ code {
   border: none;
 }
 
+.create .create-btn:hover
+{
+  background: #FF9999;
+  color: #fff !important;
+  border-radius: 15px 0px 15px 0px !important ;
+  /* transition: 1s ease-in; */
+}
+
+.btn-consultation{
+  background: #FF9999;
+  color: #fff !important;
+  border-radius: 0px 15px 0px 15px !important ;
+  padding: 15px !important;
+  font-size: 20px !important;
+  font-weight: 400;
+  border: none;
+  text-transform: capitalize;
+}
+
+.btn-consultation:hover{
+  border-radius: 15px 0px 15px 0px !important ;
+  background: #FF9999;
+  color: #fff !important;
+}
+
 /* why us */
 
 .whyUs-section h3
@@ -97,7 +151,7 @@ code {
   text-align: center;
   text-transform: uppercase;
   color: #adadab;
-  font-size: 25px;
+  font-size: 23px;
 }
 
 .whyUs-section h5
@@ -128,39 +182,44 @@ code {
 {
   border: 2px solid #FF9999;
   text-align: center;
-  padding: 10px;
-  color: #fff;
-  background: #FF9999 ;
+  padding: 8px !important;
+  /* color: #fff; */
+  /* background: #FF9999 ; */
   /* border-radius: 15px 0px 15px 0px !important ; */
   border-radius: 0px 15px 0px 15px !important ;
-  font-size: 20px !important;
+  font-size: 17px !important;
 }
 
 .card-reason2
 {
   border: 2px solid #FF9999;
   text-align: center;
-  padding: 10px;
-  color: #fff;
-  background: #FF9999 ;
+  padding: 8px;
+  /* color: #fff; */
+  /* background: #FF9999 ; */
   /* border-radius: 0px 15px 0px 15px !important ; */
   border-radius: 15px 0px 15px 0px !important ;
-  font-size: 20px;
+  font-size: 17px;
 }
 
-.search-blacklist
+.blacklist-check{
+  height: 90vh;
+}
+
+.search-blacklist button
 {
-  display: flex;
-  float: right ;
+  /* display: flex;
+  float: c ; */
+  border-radius: 15px 0px 15px 0px !important ;
   color: #FF9999 !important;
   padding: 15px !important;
-  font-size: 22px !important;
-  font-weight: 400;
+  font-size: 15px !important;
+  font-weight: 600;
   border: none;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
-.search-blacklist:hover
+.search-blacklist button:hover
 {
   color: #fff !important;
   background: #FF9999;
@@ -168,40 +227,171 @@ code {
 }
 
 .get-rid{
-  background: #adadab;
-  height: 80vh;
+  /* background: #adadab; */
+  height: 70vh;
 }
 
 .why-us-sign{
   margin-top: 100px;
 }
 
+.why-us-sign .create-btn{
+  border-radius: 15px 0px 15px 0px !important ;
+  color: #FF9999 !important;
+  padding: 10px !important;
+  font-size: 15px !important;
+  font-weight: 600;
+  border: none;
+  margin-top: 6px;
+}
+
+.why-us-sign .create-btn:hover
+{
+  color: #fff !important;
+  background: #FF9999;
+  border-radius: 15px 0px 15px 0px !important ;
+}
+
 .why-us-sign p
 {
-  font-size: 20px;
-  color: #fff;
+  font-size: 15px;
+  /* color: #fff; */
 }
 
 .getRid h3{
   text-align: center;
   margin-top: 100px;
   margin-left: 30px;
-  color: #fff;
+  /* color: #fff; */
+  font-size: 16px !important;
 }
 
 .get-rid .sign-up{
-  background: #FF9999;
-  color: #fff !important;
+  /* background: #FF9999; */
+  color: #FF9999 !important;
   border-radius: 0px 15px 0px 15px !important ;
-  padding: 15px !important;
-  font-size: 20px !important;
-  font-weight: 400;
+  padding: 10px !important;
+  font-size: 15px !important;
+  font-weight: 600;
   border: none;
-  /* margin-top: 50px; */
   float: right;
 }
 
 .sign-up:hover{
+  color: #fff !important;
+  background: #FF9999;
+  border-radius: 15px 0px 15px 0px !important ;
+}
+
+.footer{
+    background: #adadab;
+    height: 70vh;
+}
+
+.input-fields
+{
+  /* background: #FF9999; */
+  border: none;
+}
+
+.information{
   color: #fff;
-  background: #ff99cc;
+  font-size: 24px;
+}
+
+/* tooltip */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+@media only screen and (max-width:768px){
+
+  .create
+{
+  height: 70vh !important;
+  background: #fff;
+}
+
+.create .create-account 
+{
+  margin-top: 100px;
+}
+
+.create .create-account h3
+{
+  font-size: 25px ;
+  text-transform: uppercase;
+  font-weight: bold;
+  /* color:#ff99cc */
+}
+
+.create .create-account p
+{
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.create .create-btn
+{
+  background: #FF9999;
+  color: #fff !important;
+  border-radius: 0px 15px 0px 15px !important ;
+  padding: 10px !important;
+  font-size: 15px !important;
+  font-weight: 400;
+  border: none;
+}
+
+.whyUs-section h5
+{
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.blacklist-check{
+  height: 110vh;
+  margin-bottom: 30px;
+}
+
+.footer{
+  background: #adadab;
+  height: 100%;
+}
+
+.why-us-sign p
+{
+  font-size: 13px;
+  text-align: center;
+  /* color: #fff; */
+}
+
+.rrr{
+  margin-bottom: 10px;
+}
+
 }
